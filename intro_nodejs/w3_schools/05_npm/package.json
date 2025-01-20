@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chalk": "^5.4.1"
+  },
+  "name": "05_npm",
+  "version": "1.0.0",
+  "description": "an update to w3schools outdated example",
+  "main": "05_npm.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node 05_npm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
