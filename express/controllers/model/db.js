@@ -1,13 +1,17 @@
 // a sample model
 
-const authors = [
-    { id: 1, name: "Theodore" },
-    { id: 2, name: "Marianne" },
-    { id: 3, name: "Lawrence" }
+const children = [
+    { id: 1, name: "Theodore", age: 11},
+    { id: 2, name: "Marianne", age: 9 },
+    { id: 3, name: "Lawrence", age: 6 }
 ]
 
-async function getAuthorById(authorId) {
-    return authors.find(author => author.id === authorId)
+async function getChildren() {
+    return children
 }
 
-module.exports = { getAuthorById }
+async function getChildById(childId) {
+    return children.find(child => child.id === childId)
+}
+
+module.exports = { getChildById, getChildren }
